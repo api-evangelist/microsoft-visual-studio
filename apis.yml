@@ -1,0 +1,70 @@
+aid: microsoft-visual-studio
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/apis.yml
+apis:
+  - aid: microsoft-visual-studio:extensibility-api
+    name: Visual Studio Extensibility API
+    tags:
+      - IDE
+      - Extensions
+      - Developer Tools
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://learn.microsoft.com/en-us/visualstudio/extensibility/
+    properties:
+      - url: https://learn.microsoft.com/en-us/visualstudio/extensibility/
+        type: Documentation
+    description: >-
+      The Visual Studio Extensibility API enables developers to create
+      extensions that customize and extend Visual Studio IDE functionality.
+      Extensions can add custom tool windows, commands, code analyzers,
+      project templates, debugger visualizers, and language services using
+      the VSIX packaging format and MEF composition model.
+  - aid: microsoft-visual-studio:marketplace-api
+    name: Visual Studio Marketplace API
+    tags:
+      - Marketplace
+      - Extensions
+      - Distribution
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://marketplace.visualstudio.com/_apis/
+    humanURL: https://learn.microsoft.com/en-us/azure/devops/extend/develop/data-storage
+    properties:
+      - url: https://learn.microsoft.com/en-us/azure/devops/extend/develop/data-storage
+        type: Documentation
+    description: >-
+      The Visual Studio Marketplace API provides access to the extension
+      marketplace for Visual Studio, VS Code, and Azure DevOps. Developers
+      can search extensions, retrieve metadata, manage publisher profiles,
+      and publish extensions programmatically through REST endpoints.
+  - aid: microsoft-visual-studio:vscode-extension-api
+    name: VS Code Extension API
+    tags:
+      - VS Code
+      - Extensions
+      - Editor
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://code.visualstudio.com/api
+    properties:
+      - url: https://code.visualstudio.com/api
+        type: Documentation
+    description: >-
+      The VS Code Extension API enables developers to build extensions for
+      Visual Studio Code. It provides APIs for language support, debugging,
+      source control, terminal integration, webviews, custom editors,
+      notebooks, and testing. Extensions can contribute commands, menus,
+      settings, and keybindings to the editor experience.
+common:
+  - type: Portal
+    url: https://marketplace.visualstudio.com/
+  - type: GitHub Organization
+    url: https://github.com/microsoft/vscode
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://support.microsoft.com/
+maintainers:
+  - name: Kin Lane
+    email: kin@apievangelist.com
