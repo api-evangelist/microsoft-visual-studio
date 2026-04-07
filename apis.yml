@@ -7,11 +7,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - IDE
   - Developer Tools
   - Extensions
-  - VS Code
+  - IDE
   - Microsoft
+  - VS Code
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -20,9 +20,9 @@ apis:
   - aid: microsoft-visual-studio:extensibility-api
     name: Visual Studio Extensibility API
     tags:
-      - IDE
-      - Extensions
       - Developer Tools
+      - Extensions
+      - IDE
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/visualstudio/extensibility/
     properties:
@@ -37,9 +37,9 @@ apis:
   - aid: microsoft-visual-studio:marketplace-api
     name: Visual Studio Marketplace API
     tags:
-      - Marketplace
-      - Extensions
       - Distribution
+      - Extensions
+      - Marketplace
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://marketplace.visualstudio.com/_apis/
     humanURL: https://learn.microsoft.com/en-us/azure/devops/extend/develop/data-storage
@@ -54,9 +54,9 @@ apis:
   - aid: microsoft-visual-studio:vscode-extension-api
     name: VS Code Extension API
     tags:
-      - VS Code
-      - Extensions
       - Editor
+      - Extensions
+      - VS Code
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://code.visualstudio.com/api
     properties:
