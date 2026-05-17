@@ -63,7 +63,7 @@ apis:
       - url: https://code.visualstudio.com/api
         type: Documentation
       - url: https://code.visualstudio.com/api/get-started/your-first-extension
-        type: Getting Started
+        type: GettingStarted
     description: >-
       The VS Code Extension API enables developers to build extensions for
       Visual Studio Code. It provides APIs for language support, debugging,
@@ -77,11 +77,11 @@ common:
     url: https://visualstudio.microsoft.com/
   - type: Documentation
     url: https://learn.microsoft.com/en-us/visualstudio/ide/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/microsoft/vscode
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/en-us/legal/terms-of-use
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://support.microsoft.com/
