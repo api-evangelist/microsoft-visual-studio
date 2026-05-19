@@ -14,7 +14,7 @@ tags:
   - VS Code
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-28'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: microsoft-visual-studio:extensibility-api
@@ -85,6 +85,9 @@ common:
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://support.microsoft.com/
+  - name: Agent Skills
+    url: https://github.com/microsoft/skills-for-copilot-studio
+    type: AgentSkill
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
