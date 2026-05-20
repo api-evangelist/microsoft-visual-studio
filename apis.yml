@@ -71,6 +71,8 @@ apis:
       notebooks, and testing. Extensions can contribute commands, menus,
       settings, and keybindings to the editor experience.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/showcase/microsoft-visual-studio
   - type: Portal
     url: https://marketplace.visualstudio.com/
   - type: Website
