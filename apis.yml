@@ -89,7 +89,7 @@ common:
     url: https://support.microsoft.com/
   - name: Agent Skills
     url: https://github.com/microsoft/skills-for-copilot-studio
-    type: AgentSkill
+    type: AgentSkills
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
