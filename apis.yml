@@ -71,6 +71,8 @@ apis:
       notebooks, and testing. Extensions can contribute commands, menus,
       settings, and keybindings to the editor experience.
 common:
+  - type: DomainSecurity
+    url: security/microsoft-visual-studio-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/showcase/microsoft-visual-studio
   - type: Portal
@@ -93,3 +95,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+  - url: https://devblogs.microsoft.com/visualstudio/feed/
+    type: Blog
