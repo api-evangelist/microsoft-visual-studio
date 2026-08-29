@@ -5,6 +5,17 @@ description: >-
   building applications. It provides APIs for extending the IDE functionality,
   publishing extensions to the marketplace, and building VS Code extensions.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
