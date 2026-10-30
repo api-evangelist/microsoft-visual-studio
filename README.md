@@ -1,4 +1,4 @@
-# Microsoft Visual Studio (microsoft-visual-studio)
+# Microsoft Visual Studio
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,70 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Microsoft Visual Studio provides extensibility APIs for building IDE extensions, marketplace integration, and VS Code extension development.
+Microsoft Visual Studio is an integrated development environment (IDE) for building applications. It provides APIs for extending the IDE functionality, publishing extensions to the marketplace, and building VS Code extensions.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/apis.yml)
+**Areas:** Developer Tools · Extensions · IDE · Microsoft · VS Code
 
-## Tags:
+## Microsoft Visual Studio on APIs.io
 
- - IDE, Extensions, Developer Tools, VS Code, Marketplace
+Everything profiled for Microsoft Visual Studio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-visual-studio/](https://apis.io/providers/microsoft-visual-studio/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2026-03-13
-- **Modified:** 2026-04-28
+- [Visual Studio Extensibility API](https://apis.io/apis/microsoft-visual-studio/extensibility-api/) — The Visual Studio Extensibility API enables developers to create extensions that customize and extend Visual Studio IDE functionality. Extensions can add…
+- [Visual Studio Marketplace API](https://apis.io/apis/microsoft-visual-studio/marketplace-api/) — The Visual Studio Marketplace API provides access to the extension marketplace for Visual Studio, VS Code, and Azure DevOps. Developers can search…
+- [VS Code Extension API](https://apis.io/apis/microsoft-visual-studio/vscode-extension-api/) — The VS Code Extension API enables developers to build extensions for Visual Studio Code. It provides APIs for language support, debugging, source control,…
+- [Visual Studio Live Share API](https://apis.io/apis/microsoft-visual-studio/live-share-api/) — Extension-facing API (via the vsls npm module) that allows other VS Code and Visual Studio extensions to start, join, and end Live Share collaborative…
 
-## APIs
+### Published properties
 
-### Visual Studio Extensibility API
-Create extensions that customize and extend Visual Studio IDE functionality.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://learn.microsoft.com/en-us/visualstudio/extensibility/](https://learn.microsoft.com/en-us/visualstudio/extensibility/)
+#### Agent skills (31)
 
-#### Tags:
+Agent skills built on the API.
 
- - IDE, Extensions, Developer Tools
+- [add-action](https://apis.io/agent-skills/microsoft-visual-studio/add-action/)
+- [add-adaptive-card](https://apis.io/agent-skills/microsoft-visual-studio/add-adaptive-card/)
+- [add-generative-answers](https://apis.io/agent-skills/microsoft-visual-studio/add-generative-answers/)
+- [add-global-variable](https://apis.io/agent-skills/microsoft-visual-studio/add-global-variable/)
+- [add-knowledge](https://apis.io/agent-skills/microsoft-visual-studio/add-knowledge/)
+- [add-node](https://apis.io/agent-skills/microsoft-visual-studio/add-node/)
+- [add-other-agents](https://apis.io/agent-skills/microsoft-visual-studio/add-other-agents/)
+- [analyze-evals](https://apis.io/agent-skills/microsoft-visual-studio/analyze-evals/)
+- [chat-directline](https://apis.io/agent-skills/microsoft-visual-studio/chat-directline/)
+- [chat-sdk](https://apis.io/agent-skills/microsoft-visual-studio/chat-sdk/)
+- [chat-with-agent](https://apis.io/agent-skills/microsoft-visual-studio/chat-with-agent/)
+- [clone-agent](https://apis.io/agent-skills/microsoft-visual-studio/clone-agent/)
+- [create-eval](https://apis.io/agent-skills/microsoft-visual-studio/create-eval/)
+- [create-eval-set](https://apis.io/agent-skills/microsoft-visual-studio/create-eval-set/)
+- [detect-mode](https://apis.io/agent-skills/microsoft-visual-studio/detect-mode/)
+- [directline-chat](https://apis.io/agent-skills/microsoft-visual-studio/directline-chat/)
+- [edit-action](https://apis.io/agent-skills/microsoft-visual-studio/edit-action/)
+- [edit-agent](https://apis.io/agent-skills/microsoft-visual-studio/edit-agent/)
+- [edit-triggers](https://apis.io/agent-skills/microsoft-visual-studio/edit-triggers/)
+- [int-patterns](https://apis.io/agent-skills/microsoft-visual-studio/int-patterns/)
+- [int-project-context](https://apis.io/agent-skills/microsoft-visual-studio/int-project-context/)
+- [int-reference](https://apis.io/agent-skills/microsoft-visual-studio/int-reference/)
+- [list-kinds](https://apis.io/agent-skills/microsoft-visual-studio/list-kinds/)
+- [list-topics](https://apis.io/agent-skills/microsoft-visual-studio/list-topics/)
+- [lookup-schema](https://apis.io/agent-skills/microsoft-visual-studio/lookup-schema/)
+- …and 6 more published on APIs.io
 
-#### Properties
+#### Security (2)
 
-- [Documentation](https://learn.microsoft.com/en-us/visualstudio/extensibility/)
+Authentication, trust centre, and vulnerability disclosure.
 
-### Visual Studio Marketplace API
-Access the extension marketplace for Visual Studio, VS Code, and Azure DevOps.
+- [Microsoft Visual Studio Domain Security](https://apis.io/security/microsoft-visual-studio/microsoft-visual-studio-domain-security/)
+- [Microsoft Visual Studio Vulnerability Disclosure](https://apis.io/security/microsoft-visual-studio/microsoft-visual-studio-vulnerability-disclosure/)
 
-**Human URL:** [https://learn.microsoft.com/en-us/azure/devops/extend/develop/data-storage](https://learn.microsoft.com/en-us/azure/devops/extend/develop/data-storage)
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - Marketplace, Extensions, Distribution
+- [Microsoft Visual Studio Plans Pricing](https://apis.io/plans/microsoft-visual-studio/microsoft-visual-studio-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://learn.microsoft.com/en-us/azure/devops/extend/develop/data-storage)
+Published request limits.
 
-### VS Code Extension API
-Build extensions for Visual Studio Code with APIs for language support, debugging, and more.
+- [Microsoft Visual Studio Rate Limits](https://apis.io/rate-limits/microsoft-visual-studio/microsoft-visual-studio-rate-limits/)
 
-**Human URL:** [https://code.visualstudio.com/api](https://code.visualstudio.com/api)
+#### FinOps (1)
 
-#### Tags:
+What the API costs to run, by operation.
 
- - VS Code, Extensions, Editor
+- [Microsoft Visual Studio Finops](https://apis.io/finops/microsoft-visual-studio/microsoft-visual-studio-finops/)
 
-#### Properties
+## Where to find this API
 
-- [Documentation](https://code.visualstudio.com/api)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
-
-- [Portal](https://marketplace.visualstudio.com/)
-- [GitHub Organization](https://github.com/microsoft/vscode)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [Website](https://visualstudio.microsoft.com/)
+- [Documentation](https://learn.microsoft.com/en-us/visualstudio/ide/)
+- [Pricing](https://visualstudio.microsoft.com/vs/pricing)
 - [Support](https://support.microsoft.com/)
+- [Blog](https://devblogs.microsoft.com/visualstudio/feed/)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/microsoft/vscode)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 27.2** — thin · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 39.5 |
+
+**Agent readiness 3.9** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-visual-studio/](https://apis.io/providers/microsoft-visual-studio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Visual Studio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-visual-studio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
